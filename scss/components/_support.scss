@@ -1,0 +1,49 @@
+.support {
+    height: 637px;
+}
+
+.support__title {
+    font-family: 'cardo';
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    padding: 130px 0 74px 0;
+    position: relative;
+    color: #1B3764;
+}
+
+.support__title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    bottom: 49px;
+    left: 623px;
+}
+
+.support__card {
+    align-items: center;
+}
+
+.support__img {
+    padding: 0 58px 22px;
+}
+
+.support__subtitle {
+    font-family: 'cardo';
+    font-size: 24px;
+    font-weight: 400;
+    color: #1B3764;
+    text-align: center;
+}
+
+.support__text {
+    display: flex;
+    text-align: center;
+    padding: 16px 23px 0;
+    font-family: 'inter';
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+}

@@ -1,0 +1,86 @@
+.book-learning {
+    height: 1095px;
+}
+
+.book-learning__title {
+    font-family: 'cardo';
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    padding: 136px 0 26px 0;
+    position: relative;
+    color: #1B3764;
+}
+
+.book-learning__title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    bottom: 0px;
+    left: 623px;
+}
+
+.learning {
+    background-color: #F4F8FF;
+    margin: 30px 0;
+    height: 272px;
+    width: 303px;
+}
+
+.learning:first-child {
+    margin-top: 120px;
+}
+
+.learning__circle {
+    background-color: #FFCA42;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 38px;
+    left: 30px;
+}
+
+.learning__number {
+    position: absolute;
+    font-family: 'cardo';
+    font-size: 23px;
+    font-weight: 400;
+    color: #1B3764;
+    left: 13px;
+    top: 10px;
+}
+
+.learning__text {
+    padding: 60px 45px 27px 30px;
+    font-family: 'cardo';
+    font-size: 24px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.learning__text_active {
+    padding-right: 40px;
+}
+
+.second-collage {
+    display: flex;
+    position: relative;
+}
+
+.second-frame {
+    margin-top: 116px;
+    margin-left: 109px;
+    height: 640px;
+    width: 545px;
+    border: 10px solid #FFCA42;
+}
+
+.woman-img {
+    position: absolute;
+    z-index: 1;
+    top: 64px;
+    right: 20px;
+}

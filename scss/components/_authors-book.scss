@@ -1,0 +1,94 @@
+.authors-book {
+    height: 800px;
+}
+
+.authors-book__title {
+    font-family: 'cardo';
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    padding: 126px 0 96px 0;
+    position: relative;
+}
+
+.authors-book__title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    bottom: 70px;
+    left: 623px;
+}
+
+.books-ordering, .cover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cover {
+    padding: 0 10px;
+}
+
+.cover-img {
+    padding-right: 15px;
+}
+
+.cover-descryption {
+    padding-left: 15px;
+}
+
+.cover-name {
+    padding: 38px 0 7px 0;
+    font-family: 'cardo';
+    font-size: 32px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.cover-price {
+    font-family: 'inter';
+    font-size: 21px;
+    font-weight: 400;
+    color: #FFCA42;
+}
+
+.cover-annotation {
+    padding: 17px 0 13px 0;
+    font-family: 'inter';
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+}
+
+.cover-condition {
+    padding-left: 26px;
+    font-family: 'cardo';
+    font-size: 24px;
+    font-weight: 400;
+    color: #1B3764;
+    position: relative;
+}
+
+.cover-condition::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #FFCA42;
+}
+
+.order-now {
+    margin-top: 27px;
+    height: 66px;
+    width: 206px;
+    border: 2px solid #FFCA42;
+    background-color: #ffffff;
+    font-family: 'cardo';
+    font-size: 19px;
+    font-weight: 400;
+    color: #1B3764;
+}

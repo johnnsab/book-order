@@ -1,0 +1,130 @@
+.author-life {
+    height: 960px;
+    background-color: #F5F8FC;
+}
+
+.collage {
+    display: flex;
+    position: relative;
+}
+
+.frame {
+    margin-top: 180px;
+    height: 640px;
+    width: 545px;
+    border: 10px solid #FFCA42;
+}
+
+.author-img {
+    position: absolute;
+    z-index: 1;
+    top: 130px;
+    right: 121px;
+}
+
+.author-life__title {
+    padding: 196px 0 59px 0;
+    font-family: 'cardo';
+    font-size: 42px;
+    font-weight: 400;
+    color: #1B3764;
+    position: relative;
+}
+
+.author-life__title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    bottom: 35px;
+    left: 0px;
+}
+
+.author-life__text {
+    padding: 0 47px 34px 0;
+    font-family: 'inter';
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+}
+
+.author\'s-assessment {
+    @include flexible ()
+}
+
+
+.author\'s-rates {
+    position: relative;    
+}
+
+
+.author\'s-rates::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 93px;
+    background-color: #FFCA42;
+    left: 193px;
+    bottom: 0;
+}
+
+.author\'s-rates_active::after {
+    left: 170px;
+}
+
+.author\'s-rates:last-child::after {
+    content: none;
+}
+
+.author\'s-rates__number {
+    font-family: 'cardo';
+    font-size: 54px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.meaning {
+    font-family: 'inter';
+    font-size: 17px;
+    font-weight: 400;
+    color: #969AA0;
+}
+
+.business-card {
+    display: flex;
+    margin-top: 54px;
+    background-color: #1B3764;
+    width: 484px;
+}
+
+.business-card__qr {
+    padding: 15px 40px 16px 20px;
+}
+
+.business-card__info {
+    padding: 37px 30px 25px 0;
+}
+
+.business-card__title {
+    font-family: 'cardo';
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFCA42;
+    padding-bottom: 10px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts__info {
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: #B4C7E7;
+}
+
+.contacts__info:first-child {
+    padding-right: 10px;
+}

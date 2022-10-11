@@ -1,0 +1,141 @@
+.feedback {
+    height: 884px;
+}
+
+.feedback .container {
+    @include flexible ()
+}
+
+.feedback__title {
+    font-family: 'cardo';
+    font-size: 42px;
+    font-weight: 400;
+    color: #1B3764;
+    width: 334px;
+    padding: 232px 0 26px 0;
+    position: relative;
+}
+
+.feedback__title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    bottom: 0;
+    left: 0;
+}
+
+.feedback__text {
+    padding: 33px 63px 22px 0;
+    width: 435px;
+    font-family: 'inter';
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+}
+
+.rating {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.rating .circle {
+	height: 13px; 
+    width: 13px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 calc(20px/12 * 1) #FFCA42;
+}
+.rating .circle:not(:first-child) {
+	margin-left: 5px;
+}
+
+.rating > .full {
+	background: #FFCA42;
+}
+.rating > .half {
+	background: linear-gradient(to right, #FFCA42 50%, transparent 50.01%);
+}
+
+.rating_active .circle {
+    height: 20px; 
+    width: 20px;
+    margin: 0 5px 10px 5px;
+}
+
+.rating_active .circle:first-child {
+	margin-left: 0;
+}
+
+.grade {
+    margin: 0 0 8px 10px;
+    font-family: 'cardo';
+    font-size: 22px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.rating__title {
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.customers-feedback {
+    display: flex;
+    height: auto;
+}
+
+.column {
+    width: 50%;
+  }
+
+.column.center-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart {
+    background-color: #1B3764;
+    width: 381px;
+    height: 292px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.cart:first-child {
+    margin-top: 130px;
+}
+
+.cart__header {
+    display: flex;
+}
+
+.cart__header-text {
+    padding: 11px 0 37px 20px;
+}
+
+.name {
+    padding-bottom: 15px;
+    font-family: 'cardo';
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.feedback-name {
+    font-family: 'cardo';
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.feedback-text {
+    padding: 13px 20px 0 0;
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: #B4C7E7;
+}

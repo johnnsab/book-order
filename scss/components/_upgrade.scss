@@ -1,0 +1,129 @@
+.upgrade {
+    height: 1154px;
+    background-color: #F4F8FF;
+}
+
+.upgrade__title {
+    font-family: 'cardo';
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    padding: 116px 0 26px 0;
+    position: relative;
+    color: #1B3764;
+}
+
+.upgrade__title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    bottom: 0;
+    left: 623px;
+}
+
+.chapter {
+    background-color: #FFFFFF;
+    margin: 40px 0;
+    padding: 42px 0 0 40px;
+    height: 242px;
+    width: 635px;
+}
+
+.chapter:first-child {
+    margin-top: 70px;
+}
+
+.chapter:last-child {
+    margin-bottom: 70px;
+}
+
+.chapter__subtitle {
+    padding-bottom: 21px;
+    font-family: 'cardo';
+    font-size: 24px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.chapter__text {
+    padding: 0 70px 10px 0;
+    font-family: 'inter';
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+}
+
+.chapter__text_active {
+    padding-right: 80px;
+}
+
+.chapter__characteristic, .chapter__capacity {
+    display: flex;
+    align-items: center;
+}
+
+.chapter__capacity {
+    padding: 0 26px;
+    position: relative;
+}
+
+.chapter__capacity::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #FFCA42;
+}
+
+.chapter__capacity-name {
+    padding-right: 5px;
+    font-family: 'cardo';
+    font-size: 22px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.chapter__capacity-value {
+    padding-left: 5px;
+    font-family: 'inter';
+    font-size: 17px;
+    font-weight: 400;
+    color: #969AA0;
+}
+
+.trial, .clarification, .clarification__link {
+    display: flex;
+    justify-content: center;
+}
+
+.trial__button {
+    height: 76px;
+    width: 429px;
+    margin-bottom: 34px;
+    font-family: 'cardo';
+    font-size: 19px;
+    font-weight: 400;
+    background-color: #FFCA42;
+    border: 2px solid #FFCA42;
+}
+
+.clarification, .clarification__link span {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: #969AA0;
+}
+
+.clarification__link {
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: #1B3764;
+}
