@@ -4,9 +4,17 @@
 
 // Header top
 
-.header__top .container {
+.header__top {
     height: 109px;
     @include flexible ()
+}
+
+.logo-button {
+    @include scale ()
+}
+
+.logo-button:hover {
+    transform: scale(1.1);
 }
 
 .logo__img {
@@ -29,7 +37,19 @@
     width: 45px;
     background-color: #ffffff;
     margin: 0 5px;
-    
+    @include scale ()
+}
+
+.network-buttons:hover {
+    transform: scale(1.1);
+}
+
+.network-buttons__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .network-buttons:first-child {
@@ -60,6 +80,7 @@
 }
 
 .order-today {
+    cursor: pointer;
     height: 66px;
     width: 222px;
     font-family: 'cardo';
@@ -67,11 +88,16 @@
     font-weight: 400;
     background-color: #FFCA42;
     border: 2px solid #FFCA42;
+    @include scale ()
+}
+
+.order-today:hover {
+    transform: scale(1.1);
 }
 
 // Header content
 
-.header-content .container {
+.header__content {
     @include flexible ()
 }
 
@@ -80,6 +106,7 @@
     font-size: 21px;
     font-weight: 400;
     color: #ffffff;
+    padding-top: 251px;
     padding-left: 73px;
     position: relative;
 }
@@ -87,7 +114,7 @@
 .greetings::before {
     content: '';
     position: absolute;
-    top: 14px;
+    top: 265px;
     left: 23px;
     width: 35px;
     height: 2px;
@@ -105,7 +132,7 @@
 .main-title__text {
     font-family: 'inter';
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     color: #B4C7E7;
     padding: 24px 102px 42px 0;
 }

@@ -11,6 +11,11 @@
 
 .logo-wrapper {
     padding-bottom: 21px;
+    @include scale ()
+}
+
+.logo-wrapper:hover {
+    transform: scale(1.05);
 }
 
 .footer-network {
@@ -27,6 +32,19 @@
     background-color: #1B3764;
     margin: 0 5px;
     border: 1px solid #FFCA42;
+    @include scale ()
+}
+
+.network__buttons:hover {
+    transform: scale(1.1);
+}
+
+.network__buttons__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .network__buttons:first-child {

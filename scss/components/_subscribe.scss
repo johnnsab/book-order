@@ -53,6 +53,7 @@
 }
 
 .form__button {
+    cursor: pointer;
     margin-left: 8px;
     width: 328px;
     height: 68px;
@@ -62,4 +63,9 @@
     font-size: 18px;
     font-weight: 400;
     color: #FFFFFF;
+    @include scale ()
+}
+
+.form__button:hover {
+    transform: scale(1.05);
 }

@@ -82,6 +82,7 @@
 }
 
 .order-now {
+    cursor: pointer;
     margin-top: 27px;
     height: 66px;
     width: 206px;
@@ -91,4 +92,9 @@
     font-size: 19px;
     font-weight: 400;
     color: #1B3764;
+    @include scale ()
+}
+
+.order-now:hover {
+    transform: scale(1.1);
 }
